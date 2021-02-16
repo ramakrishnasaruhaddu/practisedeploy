@@ -1,0 +1,38 @@
+nav > span {
+    padding-right: 15px;
+    font-size: 3rem;
+     color: aqua;
+}
+
+.flex-column {
+    display: none;
+}
+
+@media(max-width:768px){
+    .nav-link {
+        font-size: 7px;
+        padding-top: 10px;
+    }
+} 
+
+@media(max-width:425px){
+ 
+      nav > .nav-link {
+          display: none;
+      }
+
+      .flex-column {
+        display: block;
+    }
+
+    form > .form-control {
+        width: 50%;
+        padding: 0.015rem 0.45rem
+    }
+
+    form > button {
+
+        padding: 0.075rem 0.75rem;
+
+    }
+}
